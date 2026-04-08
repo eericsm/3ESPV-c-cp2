@@ -40,7 +40,6 @@ class Program
             NumeroCartao = numeroCartao
         };
 
-        // Removed the assignment to 'Data' as 'PagamentoCartao' does not have this property.
         Console.WriteLine(pagamento.ProcessarPagamento());
     }
 
@@ -56,7 +55,6 @@ class Program
             CodigoBarras = codigoBarras
         };
 
-        // Removed the assignment to 'Data' as 'PagamentoBoleto' does not have this property.
         Console.WriteLine(pagamento.ProcessarPagamento());
     }
 
