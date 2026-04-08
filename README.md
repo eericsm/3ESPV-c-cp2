@@ -28,6 +28,7 @@ Aplicar conceitos fundamentais de:
   - `2 - Boleto`
   - `3 - Sair`
 - Mantém execução contínua até o usuário optar por sair
+<img width="475" height="131" alt="image" src="https://github.com/user-attachments/assets/9505bded-2ddf-401e-b306-77e524ec4897" />
 
 ### Processamento de pagamentos
 - Solicita valor do pagamento
@@ -46,6 +47,8 @@ Aplicar conceitos fundamentais de:
 - Não permite:
   - Valores zero
   - Valores negativos
+<img width="885" height="228" alt="image" src="https://github.com/user-attachments/assets/a336dcaa-1a7c-4425-8add-496f286bb5b6" />
+<img width="873" height="214" alt="image" src="https://github.com/user-attachments/assets/9ce041fb-8448-4cb6-bbb5-05f522bd40b0" />
 
 ---
 
@@ -55,6 +58,7 @@ Aplicar conceitos fundamentais de:
 - Entrada controlada:
   - Usuário não consegue digitar mais que o limite
   - Permite uso de backspace
+<img width="865" height="215" alt="image" src="https://github.com/user-attachments/assets/ff43bdee-a1f7-4fb4-b546-42a46679bd3a" />
 
 ---
 
@@ -63,6 +67,7 @@ Aplicar conceitos fundamentais de:
 - Código de barras deve ter:
   - **Exatamente 44 dígitos**
 - Entrada também limitada no console
+<img width="1092" height="234" alt="image" src="https://github.com/user-attachments/assets/ea7ce266-1609-4f9f-997b-52559f923fbf" />
 
 ---
 
@@ -88,3 +93,5 @@ Aplicar conceitos fundamentais de:
 - Sanitização de dados (remoção de caracteres inválidos)
 - Bloqueio de entrada inválida em tempo real (`Console.ReadKey`)
 - Evita erros comuns de entrada do usuário
+<img width="479" height="260" alt="image" src="https://github.com/user-attachments/assets/0268c0ea-58b7-49ee-b699-e189009dcb6b" />
+
