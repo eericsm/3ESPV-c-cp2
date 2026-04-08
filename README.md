@@ -48,10 +48,8 @@ Aplicar conceitos fundamentais de:
   - Valores zero
   - Valores negativos
 <img width="885" height="228" alt="image" src="https://github.com/user-attachments/assets/a336dcaa-1a7c-4425-8add-496f286bb5b6" />
-
-
-
 <img width="873" height="214" alt="image" src="https://github.com/user-attachments/assets/9ce041fb-8448-4cb6-bbb5-05f522bd40b0" />
+<img width="479" height="260" alt="image" src="https://github.com/user-attachments/assets/0268c0ea-58b7-49ee-b699-e189009dcb6b" />
 
 ### Cartão
 - Aceita apenas números
@@ -95,5 +93,3 @@ Aplicar conceitos fundamentais de:
 - Sanitização de dados (remoção de caracteres inválidos)
 - Bloqueio de entrada inválida em tempo real (`Console.ReadKey`)
 - Evita erros comuns de entrada do usuário
-<img width="479" height="260" alt="image" src="https://github.com/user-attachments/assets/0268c0ea-58b7-49ee-b699-e189009dcb6b" />
-
