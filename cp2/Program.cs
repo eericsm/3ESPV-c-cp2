@@ -1,2 +1,76 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Globalization;
+
+class Program
+{
+    static void Main()
+    {
+        while (true)
+        {
+            Menu.ExibirMenu();
+            Console.Write("Escolha uma opção: ");
+            var opcao = Console.ReadLine();
+
+            switch (opcao)
+            {
+                case "1":
+                    ProcessarPagamentoCartao();
+                    break;
+                case "2":
+                    ProcessarPagamentoBoleto();
+                    break;
+                case "3":
+                    Console.WriteLine("Saindo...");
+                    return;
+                default:
+                    Console.WriteLine("Opção inválida. Tente novamente.");
+                    break;
+            }
+        }
+    }
+
+    static void ProcessarPagamentoCartao()
+    {
+        decimal valor = LerValorPagamento();
+        Console.Write("Informe o número do cartão: ");
+        string numeroCartao = Console.ReadLine();
+
+        var pagamento = new PagamentoCartao
+        {
+            Valor = valor,
+            NumeroCartao = numeroCartao
+        };
+
+        // Removed the assignment to 'Data' as 'PagamentoCartao' does not have this property.
+        Console.WriteLine(pagamento.ProcessarPagamento());
+    }
+
+    static void ProcessarPagamentoBoleto()
+    {
+        decimal valor = LerValorPagamento();
+        Console.Write("Informe o código de barras: ");
+        string codigoBarras = Console.ReadLine();
+
+        var pagamento = new PagamentoBoleto
+        {
+            Valor = valor,
+            CodigoBarras = codigoBarras
+        };
+
+        // Removed the assignment to 'Data' as 'PagamentoBoleto' does not have this property.
+        Console.WriteLine(pagamento.ProcessarPagamento());
+    }
+
+    static decimal LerValorPagamento()
+    {
+        decimal valor;
+        while (true)
+        {
+            Console.Write("Informe o valor do pagamento: ");
+            string input = Console.ReadLine();
+            if (decimal.TryParse(input, NumberStyles.Currency, CultureInfo.CurrentCulture, out valor))
+                break;
+            Console.WriteLine("Valor inválido. Tente novamente.");
+        }
+        return valor;
+    }
+}
