@@ -48,9 +48,10 @@ Aplicar conceitos fundamentais de:
   - Valores zero
   - Valores negativos
 <img width="885" height="228" alt="image" src="https://github.com/user-attachments/assets/a336dcaa-1a7c-4425-8add-496f286bb5b6" />
-<img width="873" height="214" alt="image" src="https://github.com/user-attachments/assets/9ce041fb-8448-4cb6-bbb5-05f522bd40b0" />
 
----
+
+
+<img width="873" height="214" alt="image" src="https://github.com/user-attachments/assets/9ce041fb-8448-4cb6-bbb5-05f522bd40b0" />
 
 ### Cartão
 - Aceita apenas números
@@ -59,6 +60,7 @@ Aplicar conceitos fundamentais de:
   - Usuário não consegue digitar mais que o limite
   - Permite uso de backspace
 <img width="865" height="215" alt="image" src="https://github.com/user-attachments/assets/ff43bdee-a1f7-4fb4-b546-42a46679bd3a" />
+<img width="574" height="215" alt="image" src="https://github.com/user-attachments/assets/ed24b262-86c3-4487-9898-a2065014ed7e" />
 
 ---
 
@@ -68,7 +70,7 @@ Aplicar conceitos fundamentais de:
   - **Exatamente 44 dígitos**
 - Entrada também limitada no console
 <img width="1092" height="234" alt="image" src="https://github.com/user-attachments/assets/ea7ce266-1609-4f9f-997b-52559f923fbf" />
-
+<img width="655" height="221" alt="image" src="https://github.com/user-attachments/assets/563eca50-c100-47fc-878f-68d883e2a0b6" />
 ---
 
 ## Conceitos aplicados
